@@ -36,7 +36,7 @@ function translate(phrase) {
   var newPhrase = "";
 
   for (i = 0; i < phrase.length; i++) {
-    if (phrase[i] === "a" || phrase[i] === "e" || phrase[i] === "i" || phrase[i] === "o" || phrase[i] === "u" ) {
+    if (phrase[i] === "a" || phrase[i] === "e" || phrase[i] === "i" || phrase[i] === "o" || phrase[i] === "u" || phrase[i] === " ") {
      newPhrase += phrase[i];
    } else {
      newPhrase += phrase[i] + "o" + phrase[i];
